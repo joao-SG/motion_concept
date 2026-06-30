@@ -20,7 +20,7 @@ export default function SplineSection() {
     gsap.from('.sp-label', {
       opacity: 0,
       y: 24,
-      duration: 0.8,
+      duration: 0.9,
       ease: 'power3.out',
       scrollTrigger: {
         trigger: sectionRef.current,
